@@ -1,0 +1,118 @@
+main{
+  grid-template-areas:
+    ". instruction ."
+    ". review ."
+    ". comments .";
+}
+.instruction-container{
+  grid-area:instruction;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  margin-top: 4rem;
+  background-color: rgb(228 228 228 / 64%);
+}
+.instruction-container h2{
+  text-decoration: underline;
+}
+.brief-info{
+  display:grid;
+  grid-template-rows: repeat(4, auto);
+  place-items:center;
+  background-color: var(--dark-purple);
+  color:#fff;
+}
+.brief-info img{
+  width: 40%;
+  height:auto;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+.brief-info h1{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.brief-info, .description, .ingredients, .method{
+  margin:0 2rem;
+}
+.description, .ingredients, .method{
+  width:70%;
+}
+#icons{
+  display: flex;
+}
+#icons h6{
+  padding: 0 1.5rem;
+  font-size: 1rem;
+}
+#rating{
+  font-size: 1.3rem;
+}
+.method ol{
+  counter-reset: Steps;
+  list-style-type: none;
+}
+
+.method li:before {
+  content: "Step " counter(Steps) ". ";
+  counter-increment: Steps;
+  font-weight: bold;
+}
+
+.method li{
+  padding: 1rem 0;
+}
+#end-of-recipe{
+  padding: 1rem 4rem;
+  background-color: var(--dark-purple);
+  color:#fff;
+  text-align: center;
+}
+.review{
+  grid-area:review;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-gap:5px;
+  width: 70%;
+}
+.userName, .userComment{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName input{
+  width: 40%;
+  height: 1.4rem;
+}
+.userComment textarea{
+  height: 5rem;
+  padding-left:0;
+  padding-top:0;
+}
+.recipeRating{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.recipeRating h6{
+  margin: 1rem 0;
+  padding-right: 2rem;
+}
+#stars{
+  width: 220px;
+}
+#comments{
+  margin: 3rem 0;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-area:comments;
+}
+
+#comments h3{
+  width: 100%;
+  border-bottom: 1px solid var(--dark-purple);
+}
+#comments article{
+  border-bottom: 1px solid rgb(121,61,87,0.3);
+}

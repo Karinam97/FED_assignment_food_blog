@@ -1,5 +1,3 @@
-# CTEC3905 Assignment
-
 ## index.html
 
 The `index.html` file includes a navigation menu, my Favourite section, other recipes and footer.

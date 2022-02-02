@@ -1,5 +1,5 @@
 ## index.html
-
+ website available at: https://karinam97.github.io/FED_assignment_food_blog/
 The `index.html` file includes a navigation menu, my Favourite section, other recipes and footer.
 
 in the footer I have used social media icons using this code example:

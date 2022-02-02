@@ -1,7 +1,7 @@
-#Student cook 
+# Student cook 
 
-##Introduction
->This project's aim was for learning purposes, to get acquainted with Front End Development Technologies and learn how to apply them. This website is built purely on HTML5, CSS3 and Vanilla JavaScript. It's also fully responsive on mobile, tablet and desktop sizes. 
+## Introduction
+> This project's aim was for learning purposes, to get acquainted with Front End Development Technologies and learn how to apply them. This website is built purely on HTML5, CSS3 and Vanilla JavaScript. It's also fully responsive on mobile, tablet and desktop sizes. 
 
  website available at: https://karinam97.github.io/FED_assignment_food_blog/
 The `index.html` file includes a navigation menu, my Favourite section, other recipes and footer.

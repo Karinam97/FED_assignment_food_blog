@@ -1,53 +1,13 @@
 # Student cook 
 
-## Introduction
-> This project's aim was for learning purposes, to get acquainted with Front End Development Technologies and learn how to apply them. This website is built purely on HTML5, CSS3 and Vanilla JavaScript. It's also fully responsive on mobile, tablet and desktop sizes. 
+## Aim
+> This project's aim was for learning purposes, to get acquainted with Front End Development Technologies and learn how to apply them. This website is implemented purely on HTML5, CSS3 and Vanilla JavaScript. It's also fully responsive on mobile, tablet and desktop sizes. 
 
- website available at: https://karinam97.github.io/FED_assignment_food_blog/
-The `index.html` file includes a navigation menu, my Favourite section, other recipes and footer.
+## Features
+- grid-layout was applied to position content on a webpage
+- Slide show with left and right arrows was used to demonstrate recipes on mobile and tablet devices
+- Ability to toggle navigation menu on mobile size devices
+- Recipes data is loaded from js file
+- Stored user's comments on the website in Local Storage so after webpage refresh it remains there  
 
-in the footer I have used social media icons using this code example:
-URL:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
-
-"dinner recipes" in header navigation has a link which opens chicken_soup.html page. It is accessible only through this link.
-
-also clicking on logo and home will return to the main page
-
-## chicken_soup.html
-
-This file is only for recipe and review.
-https://www.alt-codes.net/ used for adding clock, fork&knife and star icons.
-
-## css/styles.css
-
-This is the main styling sheet which I used for both webpages. I have used four breakpoints, and had to apply grid-template-areas in each breakpoint as the items were disorganized.
-
-In the css/styles.css I have included "Mali" font from Google fonts.
-URL: https://fonts.google.com/specimen/Mali?query=Mali
-
-
-##css/recipe-instruction-styles
-
-this stylesheet was used only for recipe page. Header and Footer and also main grid was applied from styles.css. So it wasn't duplicated.
-
-used example from this website: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters, to set counter on ordered list, so I could get rid of the unnecessary sections in html.
-
-## js/scripts.js
-
- This file is used only for toggling the navigation menu on mobile size device.
- 
-## js/slideshow.js
-
-This file is used to control the slideshow in myFavourite section. The example of the function was taken from the "learning materials - splash screen system development".
-
-## js/recipe-data.js
-
-In this file I stored all the data of my recipes which I used for the main page
-
-## js/loadData.js
-
-This file loads all the data used from the recipe-data.js file
-
-## js/comment.js
-
-This file I used for parsing and keeping user comments of the food in chicken_soup.html file
+* * website available at: https://karinam97.github.io/FED_assignment_food_blog/
